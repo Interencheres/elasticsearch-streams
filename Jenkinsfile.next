@@ -1,0 +1,9 @@
+indbApplication([
+    build: [
+            "service": "cpm-elasticsearch-streams-node"
+    ],
+    publish: [
+            "service": "cpm-elasticsearch-streams-node",
+            "type": "npm"
+    ]
+])
